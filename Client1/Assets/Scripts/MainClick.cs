@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class MainClick : MonoBehaviour
 {
-    private int speed = 500;
+    private int speed = 300;
     private GameObject target;
     private bool isDestory = false;
     // Start is called before the first frame update
     void Start()
     {
+        transform.localScale = Vector3.one * 3f;
         isDestory = false;
         this.GetComponent<Button>().onClick.AddListener(OnClick);
     }
