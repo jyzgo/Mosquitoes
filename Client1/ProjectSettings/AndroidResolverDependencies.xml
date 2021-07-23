@@ -10,6 +10,7 @@
     <package>com.applovin.mediation:google-adapter:[20.2.0.2]</package>
     <package>com.applovin.mediation:ironsource-adapter:7.1.5.1.2</package>
     <package>com.applovin.mediation:mintegral-adapter:15.6.1.0</package>
+    <package>com.applovin.mediation:unityads-adapter:3.7.2.0</package>
     <package>com.applovin:applovin-sdk:10.3.1</package>
     <package>com.facebook.android:facebook-applinks:[9.0, 10)</package>
     <package>com.facebook.android:facebook-core:[9.0, 10)</package>
@@ -72,6 +73,7 @@
     <file>Assets/Plugins/Android/com.applovin.mediation.google-adapter-20.2.0.2.aar</file>
     <file>Assets/Plugins/Android/com.applovin.mediation.ironsource-adapter-7.1.5.1.2.aar</file>
     <file>Assets/Plugins/Android/com.applovin.mediation.mintegral-adapter-15.6.1.0.aar</file>
+    <file>Assets/Plugins/Android/com.applovin.mediation.unityads-adapter-3.7.2.0.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.audience-network-sdk-6.5.1.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-applinks-9.1.1.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-common-9.1.1.aar</file>
@@ -116,6 +118,7 @@
     <file>Assets/Plugins/Android/com.parse.bolts.bolts-android-1.4.0.jar</file>
     <file>Assets/Plugins/Android/com.parse.bolts.bolts-applinks-1.4.0.jar</file>
     <file>Assets/Plugins/Android/com.parse.bolts.bolts-tasks-1.4.0.jar</file>
+    <file>Assets/Plugins/Android/com.unity3d.ads.unity-ads-3.7.2.aar</file>
     <file>Assets/Plugins/Android/org.jetbrains.annotations-13.0.jar</file>
     <file>Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-android-extensions-runtime-1.4.10.jar</file>
     <file>Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-1.4.10.jar</file>
