@@ -112,6 +112,20 @@ public class InitMgr : MonoBehaviour
         PlayerPrefs.SetInt(SKIN_INDEX + "0", 1);
         _skinIndex = PlayerPrefs.GetInt(CUR_SKIN_INDEX, 0);
         _oldPer = PlayerPrefs.GetFloat(OLD_PER, 0f);
+        StartCoroutine(DelayShowAds());
+    }
+
+    IEnumerator DelayShowAds()
+    {
+        yield return new WaitForSeconds(3f);
+        AdsMgr.current.ShowInter();
+        yield return new WaitForSeconds(2f);
+        AdsMgr.current.ShowRewardAds(Enm);
+    }
+
+    void Enm()
+    {
+
     }
 
     void BackToBeforePlay()

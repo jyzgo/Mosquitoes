@@ -22,7 +22,7 @@ public class AdjustLiveOn : MonoBehaviour
     {
         current = this;
     }
-    const string ADJUST_TOKEN = "dfx3eu5n4a9s";
+    const string ADJUST_TOKEN = "4ra9spkcrytc";
 
     public void InitAdjust()
     {
